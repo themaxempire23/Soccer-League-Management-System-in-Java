@@ -28,7 +28,7 @@ ArrayList<Team> wiinerofQuarterFinals = new ArrayList<>();
 			super.playGroupMatch(getTeams().subList(from, to));
 			getWinnerofTheGroup(super.doSelectionSort(getTeams().subList(from, to)));
 			from +=2 ;
-			to += 2; 
+			to += 2;
 		}
 }
 	private void getWinnerofTheGroup(List<Team> playGroupMatch) {
